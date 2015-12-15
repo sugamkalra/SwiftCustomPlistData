@@ -15,6 +15,8 @@
 		156572511C1FE3FD004EC23A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1565724F1C1FE3FD004EC23A /* LaunchScreen.storyboard */; };
 		1565725C1C1FE3FD004EC23A /* SwiftyCustomPlistDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1565725B1C1FE3FD004EC23A /* SwiftyCustomPlistDataTests.swift */; };
 		156572671C1FE3FD004EC23A /* SwiftyCustomPlistDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156572661C1FE3FD004EC23A /* SwiftyCustomPlistDataUITests.swift */; };
+		156572761C1FE47F004EC23A /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156572751C1FE47F004EC23A /* Config.swift */; };
+		156572781C1FE485004EC23A /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 156572771C1FE485004EC23A /* Config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		156572621C1FE3FD004EC23A /* SwiftyCustomPlistDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyCustomPlistDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		156572661C1FE3FD004EC23A /* SwiftyCustomPlistDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyCustomPlistDataUITests.swift; sourceTree = "<group>"; };
 		156572681C1FE3FD004EC23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		156572751C1FE47F004EC23A /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		156572771C1FE485004EC23A /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		156572421C1FE3FD004EC23A /* SwiftyCustomPlistData */ = {
 			isa = PBXGroup;
 			children = (
+				156572741C1FE470004EC23A /* CustomPlist */,
 				156572431C1FE3FD004EC23A /* AppDelegate.swift */,
 				156572451C1FE3FD004EC23A /* ViewController.swift */,
 				156572471C1FE3FD004EC23A /* Main.storyboard */,
@@ -126,6 +131,15 @@
 				156572681C1FE3FD004EC23A /* Info.plist */,
 			);
 			path = SwiftyCustomPlistDataUITests;
+			sourceTree = "<group>";
+		};
+		156572741C1FE470004EC23A /* CustomPlist */ = {
+			isa = PBXGroup;
+			children = (
+				156572751C1FE47F004EC23A /* Config.swift */,
+				156572771C1FE485004EC23A /* Config.plist */,
+			);
+			name = CustomPlist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				156572781C1FE485004EC23A /* Config.plist in Resources */,
 				156572511C1FE3FD004EC23A /* LaunchScreen.storyboard in Resources */,
 				1565724E1C1FE3FD004EC23A /* Assets.xcassets in Resources */,
 				156572491C1FE3FD004EC23A /* Main.storyboard in Resources */,
@@ -260,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				156572461C1FE3FD004EC23A /* ViewController.swift in Sources */,
+				156572761C1FE47F004EC23A /* Config.swift in Sources */,
 				1565724C1C1FE3FD004EC23A /* SwiftyCustomPlistData.xcdatamodeld in Sources */,
 				156572441C1FE3FD004EC23A /* AppDelegate.swift in Sources */,
 			);
